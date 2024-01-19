@@ -1,13 +1,9 @@
-import Head from "next/head";
+import Layout from "@/components/Layout";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Next Tailwind Amazona</title>
-        <meta name="description" content="new app" />
-      </Head>
-      <h1 className="text-3xl font-bold">Next Tailwind Amazona</h1>
-    </div>
+    <Layout title="Home page">
+      Home page
+    </Layout>
   )
 }
